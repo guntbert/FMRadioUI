@@ -52,6 +52,7 @@
             this.chbMute.TabIndex = 0;
             this.chbMute.Text = "Ton aus";
             this.chbMute.UseVisualStyleBackColor = true;
+            this.chbMute.CheckedChanged += new System.EventHandler(this.chbMute_CheckedChanged);
             // 
             // rbPre1
             // 
