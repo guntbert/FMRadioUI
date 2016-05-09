@@ -64,7 +64,7 @@
             this.rbPre1.TabIndex = 1;
             this.rbPre1.Text = "92,05";
             this.rbPre1.UseVisualStyleBackColor = true;
-            this.rbPre1.CheckedChanged += new System.EventHandler(this.rbPre1_CheckedChanged);
+            this.rbPre1.CheckedChanged += new System.EventHandler(this.radiobuttons_CheckedChanged);
             // 
             // rbPre2
             // 
@@ -76,7 +76,7 @@
             this.rbPre2.TabIndex = 2;
             this.rbPre2.Text = "89,75";
             this.rbPre2.UseVisualStyleBackColor = true;
-            this.rbPre2.CheckedChanged += new System.EventHandler(this.rbPre2_CheckedChanged);
+            this.rbPre2.CheckedChanged += new System.EventHandler(this.radiobuttons_CheckedChanged);
             // 
             // rbPre3
             // 
@@ -88,7 +88,7 @@
             this.rbPre3.TabIndex = 3;
             this.rbPre3.Text = "104,0";
             this.rbPre3.UseVisualStyleBackColor = true;
-            this.rbPre3.CheckedChanged += new System.EventHandler(this.rbPre3_CheckedChanged);
+            this.rbPre3.CheckedChanged += new System.EventHandler(this.radiobuttons_CheckedChanged);
             // 
             // rbManual
             // 
@@ -102,7 +102,7 @@
             this.rbManual.TabStop = true;
             this.rbManual.Text = "manuell";
             this.rbManual.UseVisualStyleBackColor = true;
-            this.rbManual.CheckedChanged += new System.EventHandler(this.rbManual_CheckedChanged);
+            this.rbManual.CheckedChanged += new System.EventHandler(this.radiobuttons_CheckedChanged);
             // 
             // label1
             // 
