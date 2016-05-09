@@ -172,6 +172,7 @@
             0,
             0,
             0});
+            this.udFreq.ValueChanged += new System.EventHandler(this.udFreq_ValueChanged);
             // 
             // Form1
             // 

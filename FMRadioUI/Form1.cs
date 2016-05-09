@@ -16,6 +16,8 @@ namespace FMRadioUI
         public Form1()
         {
             InitializeComponent();
+            udFreq.Value=98.2m;
+            rbManual.Checked = true;
         }
 
         private void trbVolume_ValueChanged(object sender, EventArgs e)
@@ -53,7 +55,10 @@ namespace FMRadioUI
             }
         }
 
-  
+        private void udFreq_ValueChanged(object sender, EventArgs e)
+        {
+            Text = udFreq.Value.ToString()+" MHz";
         }
     }
-}
+    }
+
