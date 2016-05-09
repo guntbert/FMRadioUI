@@ -113,9 +113,11 @@
             // 
             this.trbVolume.Location = new System.Drawing.Point(92, 257);
             this.trbVolume.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.trbVolume.Maximum = 20;
             this.trbVolume.Name = "trbVolume";
             this.trbVolume.Size = new System.Drawing.Size(347, 45);
             this.trbVolume.TabIndex = 7;
+            this.trbVolume.ValueChanged += new System.EventHandler(this.trbVolume_ValueChanged);
             // 
             // label4
             // 

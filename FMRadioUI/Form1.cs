@@ -16,5 +16,10 @@ namespace FMRadioUI
         {
             InitializeComponent();
         }
+
+        private void trbVolume_ValueChanged(object sender, EventArgs e)
+        {
+            lblVol.Text = trbVolume.Value.ToString();
+        }
     }
 }
