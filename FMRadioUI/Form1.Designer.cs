@@ -57,15 +57,14 @@
             // rbPre1
             // 
             this.rbPre1.AutoSize = true;
-            this.rbPre1.Checked = true;
             this.rbPre1.Location = new System.Drawing.Point(44, 64);
             this.rbPre1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.rbPre1.Name = "rbPre1";
-            this.rbPre1.Size = new System.Drawing.Size(102, 26);
+            this.rbPre1.Size = new System.Drawing.Size(77, 26);
             this.rbPre1.TabIndex = 1;
-            this.rbPre1.TabStop = true;
-            this.rbPre1.Text = "Station 1";
+            this.rbPre1.Text = "92,05";
             this.rbPre1.UseVisualStyleBackColor = true;
+            this.rbPre1.CheckedChanged += new System.EventHandler(this.rbPre1_CheckedChanged);
             // 
             // rbPre2
             // 
@@ -73,10 +72,11 @@
             this.rbPre2.Location = new System.Drawing.Point(44, 100);
             this.rbPre2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.rbPre2.Name = "rbPre2";
-            this.rbPre2.Size = new System.Drawing.Size(102, 26);
+            this.rbPre2.Size = new System.Drawing.Size(77, 26);
             this.rbPre2.TabIndex = 2;
-            this.rbPre2.Text = "Station 2";
+            this.rbPre2.Text = "89,75";
             this.rbPre2.UseVisualStyleBackColor = true;
+            this.rbPre2.CheckedChanged += new System.EventHandler(this.rbPre2_CheckedChanged);
             // 
             // rbPre3
             // 
@@ -84,21 +84,25 @@
             this.rbPre3.Location = new System.Drawing.Point(44, 136);
             this.rbPre3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.rbPre3.Name = "rbPre3";
-            this.rbPre3.Size = new System.Drawing.Size(102, 26);
+            this.rbPre3.Size = new System.Drawing.Size(77, 26);
             this.rbPre3.TabIndex = 3;
-            this.rbPre3.Text = "Station 3";
+            this.rbPre3.Text = "104,0";
             this.rbPre3.UseVisualStyleBackColor = true;
+            this.rbPre3.CheckedChanged += new System.EventHandler(this.rbPre3_CheckedChanged);
             // 
             // rbManual
             // 
             this.rbManual.AutoSize = true;
+            this.rbManual.Checked = true;
             this.rbManual.Location = new System.Drawing.Point(44, 172);
             this.rbManual.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.rbManual.Name = "rbManual";
             this.rbManual.Size = new System.Drawing.Size(93, 26);
             this.rbManual.TabIndex = 4;
+            this.rbManual.TabStop = true;
             this.rbManual.Text = "manuell";
             this.rbManual.UseVisualStyleBackColor = true;
+            this.rbManual.CheckedChanged += new System.EventHandler(this.rbManual_CheckedChanged);
             // 
             // label1
             // 
@@ -156,7 +160,7 @@
             0,
             0});
             this.udFreq.Minimum = new decimal(new int[] {
-            97,
+            87,
             0,
             0,
             0});

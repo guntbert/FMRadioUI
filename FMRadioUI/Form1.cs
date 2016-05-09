@@ -36,5 +36,48 @@ namespace FMRadioUI
             }
             trbVolume.Enabled = !chbMute.Checked;
         }
+
+        private void rbPre1_CheckedChanged(object sender, EventArgs e)
+        {
+            RadioButton rb = (RadioButton)sender;
+            if (rb.Checked)
+            {
+                udFreq.Value = Convert.ToDecimal(rb.Text);
+                udFreq.Enabled = false;
+            }
+        }
+
+        private void rbPre2_CheckedChanged(object sender, EventArgs e)
+        {
+            RadioButton rb = (RadioButton)sender;
+            if (rb.Checked)
+            {
+                udFreq.Value = Convert.ToDecimal(rb.Text);
+                udFreq.Enabled = false;
+            }
+
+        }
+
+        private void rbPre3_CheckedChanged(object sender, EventArgs e)
+        {
+            RadioButton rb = (RadioButton)sender;
+            if (rb.Checked)
+            {
+                udFreq.Value = Convert.ToDecimal(rb.Text);
+                udFreq.Enabled = false;
+            }
+
+        }
+
+        private void rbManual_CheckedChanged(object sender, EventArgs e)
+        {
+            RadioButton rb = (RadioButton)sender;
+            if (rb.Checked)
+            {
+               udFreq.Enabled = true;
+            }
+
+
+        }
     }
 }
